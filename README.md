@@ -12,11 +12,12 @@
 <ul>
 
 -[Version 1] 
- *29th October 2019* (https://caitlincrowe01/github.io/John.Baskerville/Johnbaskerville.html)
+ *29th October 2019* (https://caitlincrowe01.github.io/John.Baskerville/Johnbaskerville.html)
  Today I created my first John Baskerville webpage and converted my markup program into Html5
    
 
-   <li>Version 2
+   <li>Version 2 
+   (https://caitlincrowe01.github.io/John.Baskerville/Johnbaskerville2.html)
    4th November 2019
    I added some CSS</li>
 
