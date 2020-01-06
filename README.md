@@ -31,3 +31,34 @@ John Baskerville
    *4th December 2019 *
    I experimented with flexbox
   
+History Of Type
+================
+
+  -[Version 1]
+  (https://caitlincrowe01.github.io/John.Baskerville/historyoftype.html)
+  *29th October 2019* 
+  First version of History of Type 
+   
+
+   -[Version 2] 
+   (https://caitlincrowe01.github.io/John.Baskerville/historyoftype2.html)
+   *7th November 2019*
+   Experimenting with CSS 
+
+   -[Version 3]
+   (https://caitlincrowe01.github.io/John.Baskerville/historyoftype3.html)
+   *10th November 2019*
+   I added Web fonts, using google font
+
+   -[Version 4]
+   (https://caitlincrowe01.github.io/John.Baskerville/historyoftype4.html)
+   *12th November 2019*
+   Testing multiple nests 
+
+   -[Version 5]
+   (https://caitlincrowe01.github.io/John.Baskerville/historyoftype5.html)
+   *30th November 2019*
+   I added pictures and converted the list into a table
+
+
+  
