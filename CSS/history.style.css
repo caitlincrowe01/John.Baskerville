@@ -1,0 +1,222 @@
+/*-------- CSS Reset ------*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+    scroll-behavior: smooth;
+    
+}
+
+/*---------- MAIN STYLING ----------*/
+body {
+    width: 80%;
+    max-width: 760px;
+    margin: auto;
+    background: #978e8e;
+    color: rgb(255, 255, 255);
+    font-family:'Lato', sans-serif;
+}
+       
+  
+/*---------------- TYPOGRAPHY ---------------*/
+
+h1, h2, h3 {
+    font-weight: normal;
+    color: rgb(255, 0, 115);
+    text-align: center;
+}
+p,  {font-family: 'Open Sans', sans-serif;}
+
+p, blockquote {
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+}
+
+h1 {font-size: 3.6em;
+    margin-top: 3em;
+    margin-bottom: 0.1em;
+}
+
+h2 {font-size: 2em;
+    margin: 3em 0 1em 0} 
+
+h3 {font-size: 1.5em;
+margin-bottom: 1.5em;}
+
+blockquote {
+   font-size: 1.414em;
+   hanging-punctuation: first;
+   text-indent: -0.44em;
+   color:  rgb(255, 0, 0);
+}
+
+blockquote cite {
+    font-size: 0.75em;
+    color: rgb(255, 0, 0)}
+
+header h3 {font-style: italic}
+
+header p {font-size: 1.45em}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em 0;
+}
+
+ul li {
+    margin: 11px;
+    }
+
+.list-indent {
+    margin-left: 2.5em;}
+
+.list-head {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;}
+
+    .red {background: rgb(255, 0, 0)}
+
+/*--------------------- STYLING LINKS -----------------*/
+a {
+    color: rgb(255, 0, 98);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 251, 0);
+    border-bottom: 1px dotted;
+}
+
+/*------------------- NAVIGATION ------------------*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #8F0040;
+    padding: 1em 0;
+    font-size: 0.75em;
+    box-shadow: 0 0 10px 0 rgb(255, 255, 255);
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    background: none;
+}
+
+nav a:link {
+    color: #ffc6ec;
+}
+
+nav a:visited {
+    color: #fafafa;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: rgb(255, 238, 0);
+    transition: all 0.3s ease-in-out;
+
+}
+
+/*------------------- TABLE STYLING ---------------*/
+
+table {
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2em;
+    width: 100%;
+    font-size: 0.75em
+}
+
+caption {
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+}
+
+th {
+    color: #c9ff05;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    background: #8F0040;
+}
+
+th, td {
+    padding: .6em }
+
+table, td   {
+    background: rgb(155, 78, 112);
+    border: 1px solid #fafafa
+}
+
+/*-------------- IMAGES -----------------*/
+
+img {
+    display: block;
+    margin: 3em auto;
+    padding: 0;
+    max-width: 40em;
+    height: 20em;
+}
+
+
+
+
+/*-------------------- FOOTER ---------------------*/
+footer {
+    text-align: center;
+    font-size: 0.707em;
+    padding: 2em 0 4em 0
+}
+
+.connections {
+    position: relative;
+    margin: 0 auto;
+}
+
+.connections ul {
+    margin: 0;
+    padding: 0;}
+
+.connections li {
+    margin: 0 15px;
+    padding: 0;
+    list-style: none; 
+    display: inline-block;}
+    
+.connections a:link {
+    border-bottom: none;}
+
+.connections img {
+    opacity: 0.6;
+    border: none;
+    }
+    
+ .connections a:hover img {
+        opacity: 1.0;
+        border-bottom: none; 
+        transition: all 0.3s ease-in-out; 
+                }   
+
+
+/*-------------------- FOOTER ---------------------*/
+footer {
+    text-align: center;
+    font-size: 0.707em;
+    padding: 2em 0 4em 0
+}
