@@ -1,0 +1,268 @@
+/*----------CSS Reset----------*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;}
+
+/*---------Main Styling--------*/
+
+body {
+    width: 70%;
+    max-width: 670px;
+    margin: auto; 
+    background: #fafafafa;
+    color:black;
+    
+}
+/*--------Flexbox------------*/
+article {
+    display: flex;} 
+   
+   
+.main{ flex: 3;
+    padding-right: 1em }
+   
+aside { flex: 1;  
+        font-size: 0.75em;
+        font-style: italic; 
+        border-left: 1px solid #c06;
+        padding-left: 1em}
+
+        
+
+/*---------TYPOGRAPHY---------*/
+
+h1, h2, h3 {
+    font-weight:normal;
+    color:rgb(241, 6, 6);
+    text-align: center;
+
+}
+p,cite{font-family: 'Libre Baskerville', serif;}
+p, blockquote{
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+}
+
+h1 {font-size: 2.827em;
+    margin-top:2em;
+    margin-bottom: 0.1em;
+}
+
+h2{font-size: 1.999em;
+margin: 1em 0 1em 0
+}
+
+h3{font-size: 1.414em;
+    margin-top:2em;
+    margin-bottom: 1.5em;
+    font-family: 'Libre Baskerville', serif;}
+
+blockquote{
+    font-size: 1.5em;
+    hanging-punctuation: first;
+    text-indent: -0.45;
+}
+
+cite{
+    font-size: 1em;
+}
+
+header h3{font-style: italic;}
+
+header p{font-size: 1.35em;}
+
+.indent {
+    margin-left: 3em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em 0;
+}
+
+ul li {
+    margin: 10px;
+    }
+
+.list-indent {
+    margin-left: 2em;}
+
+.list-head {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;}
+
+    .red {background: orangered}
+
+/*-----------STYLING LINKS--------*/
+a{
+    color: crimson;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(238, 255, 0);
+    border-bottom: 1px dotted;
+}
+
+/*-----------NAVIGATION----------*/
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(220, 20, 60);
+    padding: 1em 0;
+    font-size: 0.80em;
+}
+
+nav ul{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 20px;
+}
+nav a:link{
+    color: #fffffffa;
+}
+
+nav a:hover{
+    border-bottom: none;
+    color:rgb(255, 174, 0);
+}
+
+/*------------------- TABLE STYLING ---------------*/
+
+table {
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+th {
+    color: #fafafa;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    background:crimson;
+}
+
+th, td {
+    padding: .6em }
+
+table, td   {
+    background:rgb(243, 137, 158);
+    border: 1px solid #fafafa
+
+}
+
+/*-------------- IMAGES -----------------*/
+
+
+img {
+    display: block;
+    margin: 3em auto;
+    padding: 0;
+    max-width: 100%;
+}
+
+/*-----------FOOTER----------*/
+footer{
+    text-align: center;
+    font-size: 0.83em;
+    padding: 2em 0 2em 0;
+}
+.connections {
+	position: relative;
+	margin: 0 auto;
+}
+
+.connections ul {
+	margin: 0;
+	padding: 0;}
+
+.connections li {
+	margin: 0 15px;
+	padding: 0;
+	list-style: none; 
+	display: inline-block;}
+	
+.connections a:link {
+	border-bottom: none;}
+
+.connections img {
+	opacity: 0.5;
+    border: none;
+	}
+	
+ .connections a:hover img {
+		opacity: 1.0;
+		border-bottom: none; 
+		transition: all 0.3s ease-in-out; 
+				}	
+
+/*-------media-------*/
+@media (max-width: 60em) { 
+        body {
+        width: 100%;
+    }
+     
+header p, article {
+    width: 95%;
+    padding: 0.6em;
+    } 
+    
+article { flex-flow: column;
+          flex-direction: column;}
+     
+section { width: 90%}
+    
+.aside {border-left: none;
+        margin: 0;
+        padding-left: 1em;
+        font-size: 1.3em}    
+} 
+
+/*----------- SMARTPHONE ----------- */
+ @media (max-width: 30em) {
+   body {
+    margin: auto 0;
+    width: 95%;
+    font-size: 135%; 
+    }
+
+     
+nav ul li {
+    display: block;
+    margin: 20px; }
+     
+table {font-size: 90%}
+     
+article {
+    width: 90%;
+    } 
+
+h1 {font-size: 2em;
+     line-height: 1.3}   
+blockquote { font-size: 1.25em;
+         padding: 0;
+         line-height: 1.6em}  
+     
+hgroup h2 {font-size: 1.5em;
+           padding-top: 0.5em}  
+     
+nav ul li {font-size: .75em;
+        margin: 10px}
+     
+     img {display: none}
