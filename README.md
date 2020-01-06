@@ -11,9 +11,9 @@
        <h2>Experimenting with Html and CSS</h2>
 <ul>
 
--[Version 1] 
- *29th October 2019* (https://caitlincrowe01.github.io/John.Baskerville/johnbaskerville.html)
- Today I created my first John Baskerville webpage and converted my markup program into Html5
+  <li>Version 1
+  *29th October 2019* (https://caitlincrowe01.github.io/John.Baskerville/Johnbaskerville.html)
+  Today I created my first John Baskerville webpage and converted my markup program into Html5</li>
    
 
    <li>Version 2 
