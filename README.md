@@ -22,18 +22,22 @@
    I added some CSS</li>
 
    <li>Version 3
+   (https://caitlincrowe01.github.io/John.Baskerville/Johnbaskerville3.html)
    11th November 2019
    I added Web fonts, using google font</li>
 
    <li>Version 4
+   (https://caitlincrowe01.github.io/John.Baskerville/Johnbaskerville4.html)
    18th November 2019</li>
 
    <li>Version 5
+   (https://caitlincrowe01.github.io/John.Baskerville/Johnbaskerville5.html)
    26th November 2019
    I added pictures and converted a list into a table</li>
 
    <li>Version 6
+   (https://caitlincrowe01.github.io/John.Baskerville/Johnbaskerville6.html)
    4th December 2019 
-   Applied Flexbox (file:///C:/Users/User/Documents/GitHub/website_essay/essaywebsite.html#header)</li>
+  </li>
 
 </ul>
