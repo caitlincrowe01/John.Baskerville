@@ -17,7 +17,7 @@
    
 
    <li>Version 2 
-   (https://caitlincrowe01.github.io/John.Baskerville/johnbaskerville2.html)
+   (https://caitlincrowe01.github.io/John.Baskerville/Johnbaskerville2.html)
    4th November 2019
    I added some CSS</li>
 
