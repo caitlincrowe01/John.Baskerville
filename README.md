@@ -21,9 +21,11 @@ John Baskerville
    *26th November 2019*
    I added pictures and converted a list into a table
 
-   -[Version 6](https://caitlincrowe01.github.io/John.Baskerville/johnbaskerville6.html)|
-  *4th December 2019 * |
+   -[Version 6](https://caitlincrowe01.github.io/John.Baskerville/johnbaskerville6.html)
+  *4th December 2019 * 
    I experimented with flexbox
+  
+
   
 History Of Type
 ================
@@ -45,7 +47,7 @@ History Of Type
    *12th November 2019*
    Testing multiple nests 
 
-   -[Version 5](https://caitlincrowe01.github.io/John.Baskerville/historyoftype5)
+   -[Version 5](https://caitlincrowe01.github.io/John.Baskerville/historyoftype5.html)
    *30th November 2019*
    I added pictures and converted the list into a table
 
